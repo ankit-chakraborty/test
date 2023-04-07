@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+    .first {
+        font-family: 'Montserrat', sans-serif;
+        border-style: solid;
+        border-width: 50%;
+        border-radius: 0.5%;
+        width: 40%;
+        text-shadow: 10px;
+    }
+
+    .second {
+        font-family: 'Montserrat', sans-serif;
+        border-style: solid;
+        border-width: 50%;
+        border-radius: 0.5%;
+        width: 40%;
+        text-shadow: 10px;
+    }
+
+    button {
+        color: black;
+        border-radius: 12px;
+        padding: 15px;
+        background-color: wheat;
+        font-weight: bold;
+        border: none;
+        margin-top: 46px;
+        padding-right: 35px;
+        padding-left: 30px;
+        padding-top: 12px;
+        padding-bottom: 13px;
+    }
+
+    input[type=text],
+    select {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        /* border: 1px solid #ccc; */
+        /* border-radius: 4px; */
+        box-sizing: border-box;
+        text-shadow: 20px;
+    }
+
+    input[type=submit] {
+        width: 50%;
+        /* background-color: #4CAF50; */
+        /* color: black; */
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    div {
+        /* border-radius: 5px; */
+        /* background-color: #f2f2f2; */
+        padding: 20px;
+    }
+
+    #name {
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+
+    #name2 {
+        border: none;
+        border-bottom: 2px solid white;
+        background-color: #0096FF;
+        color: white;
+    }
+    .flex{
+        display: flex;
+    }
+</style>
+
+<body>
+
+    <div class="flex">
+
+
+        <div class="first">
+            <h3 style="color: aqua;">General Information</h3>
+
+            <form action="">
+
+                <select id="country" name="country" aria-placeholder="Position" style="border: none; 
+            border-bottom: 1px solid gray; width: 67%;">
+                    <option>Title</option>
+                    <option>link 1</option>
+                    <option>link 2</option>
+                    <option>link 3</option>
+                </select>
+
+
+                <input type="text" id="name" name="firstname" placeholder="First Name" style="width: min-content">
+
+                <input type="text" id="name" name="lastname" placeholder="Last Name" style="width: min-content ;">
+
+                <select id="country" name="country" aria-placeholder="Position" style="border: none; 
+            border-bottom: 1px solid gray; width: 67%;">
+                    <option>Position</option>
+                    <option>link 1</option>
+                    <option>link 2</option>
+                    <option>link 3</option>
+                </select>
+
+                <!-- <input type="submit" value="Submit"> -->
+
+                <input type="text" id="name" placeholder="Company" style="width: 67%;">
+
+                <input type="text" name="" id="name" placeholder="Business Arena" style="width: min-content;">
+
+
+                <select id="country" name="country" style="border: none; 
+            border-bottom: 1px solid gray; width: 33%;">
+                    <option>Employees</option>
+                    <option>link 1</option>
+                    <option>link 2</option>
+                    <option>link 3</option>
+                </select>
+
+            </form>
+        </div>
+
+        <div class="second" style="background-color: #0096FF;">
+            <h3 style="font-weight: bold; color: white;">Contact Details</h3>
+
+            <form action="">
+                <input type="text" id="name2" placeholder="Street+Nr" style="width: 100%;">
+
+                <input type="text" name="" id="name2" placeholder="Additional Information" style="width: 100%;">
+
+                <input type="text" placeholder="Zip Code" name="" id="name2" style="width: 20%; margin-right: 15px;">
+
+                <select id="country" name="country" style="border: none; 
+            border-bottom: 2px solid white; background-color: #0096FF; color: azure; width: 76%;">
+                    <option>Place</option>
+                    <option>link 1</option>
+                    <option>link 2</option>
+                    <option>link 3</option>
+                </select>
+
+                <select id="country" name="country" style="border: none; 
+            border-bottom: 1px solid white; background-color: #0096FF; color: white; font-weight: 200px; width: 100%;">
+                    <option>Country</option>
+                    <option>link 1</option>
+                    <option>link 2</option>
+                    <option>link 3</option>
+                </select>
+
+                <input type="text" placeholder="Code+" id="name2" style="width: 20%; margin-right: 15px;">
+
+                <input type="text" placeholder="Phone Number" id="name2" style="width: 76%;">
+
+                <input type="email" name="" placeholder="Your Email" id="name2" style="width: 100%; margin-top: 25px;">
+
+                <label class="container" style="width: 100%; color: whitesmoke; margin-top: 25px;">I do accept the
+                    <u>Terms and Condition</u> of your site
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <button style="width: 100%;">Register Badge</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
